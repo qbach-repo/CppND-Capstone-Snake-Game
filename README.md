@@ -22,6 +22,34 @@ In this project, you can build your own C++ application or extend this Snake gam
   * Hyperfoods will appear with 20% chance.
   * Hyperfoods appear the same as regular foods so the player won't be able to tell the difference.
   * When eating hyper foods, the snake speed will be 2x for 5 seconds. After 5 seconds, the snake speed will be back to normal.
+ 
+## Project Rubic
+* README (All Rubric Points REQUIRED)
+  * [x] A README with instructions is included with the project
+  * [x] The README indicates the new features you added to the game.
+  * [x] The README includes information about each rubric point addressed.
+
+* Compiling and Testing (All Rubric Points REQUIRED)
+  * [x] The submission must compile and run without errors on the Udacity project workspace.
+ 
+* Loops, Functions, I/O - meet at least 2 criteria
+  * [x] The project demonstrates an understanding of C++ functions and control structures.
+  * [x] The project uses data structures and immutable variables.
+  
+* Object Oriented Programming - meet at least 3 criteria
+  * [x] Class constructors utilize member initialization lists.
+  * [x] Classes abstract implementation details from their interfaces.
+
+* Memory Management - meet at least 3 criteria
+  * [x] The project makes use of references in function declarations.
+  * [x] The project uses destructors appropriately.
+  * [x] The project uses scope / Resource Acquisition Is Initialization (RAII) where appropriate.
+
+* Concurrency - meet at least 2 criteria
+  * [x] The project uses multithreading.
+  * [x] A promise and future is used in the project.
+
+
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
