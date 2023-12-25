@@ -8,6 +8,21 @@ The Capstone Project gives you a chance to integrate what you've learned through
 
 In this project, you can build your own C++ application or extend this Snake game, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
 
+## New Features
+* Pause
+  * The game can be paused in the middle of the game by using the ESC key.
+  * When pausing the game, a pause message will be displayed on the window title.
+
+* Wall Up!
+  * The player can toggle wall-up feature by pressing the W key.
+  * Wrap-around will be disabled.
+  * Snake will die when hitting the wall.
+
+* Hyperfoods
+  * Hyperfoods will appear with 20% chance.
+  * Hyperfoods appear the same as regular foods so the player won't be able to tell the difference.
+  * When eating hyper foods, the snake speed will be 2x for 5 seconds. After 5 seconds, the snake speed will be back to normal.
+
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
