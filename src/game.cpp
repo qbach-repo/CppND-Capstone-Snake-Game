@@ -102,7 +102,7 @@ void Game::Update(Renderer *renderer) {
     // Grow snake and increase speed.
     snake.GrowBody();
     if (dis(gen) <= 2) {
-      std::thread hyperTimer(TimerThread, snake);
+      std::thread hyperTimer(TimerThread, std::ref(snake));
       hyperTimer.detach();
     } else {
       snake.speed += 0.02;
